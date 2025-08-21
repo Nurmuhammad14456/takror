@@ -53,10 +53,8 @@ header {
         border-radius: 3px;
       }
 
-      /* 600px dan kichik ekranlarda matnni yashiramiz */
       @media (max-width: 600px) {
         .lang-btn {
-          font-size: 0; /* matnni yashirish uchun */
           gap: 0;
         }
 
@@ -91,11 +89,11 @@ header {
     gap: 20px;
 
     .img {
-      flex-shrink: 0; // logo siqilmasin
+      flex-shrink: 0;
     }
 
     .inp {
-      flex: 1; // input hamma bo‘sh joyni egallaydi
+      flex: 1;
       display: flex;
       align-items: center;
       gap: 12px;
